@@ -1,0 +1,21 @@
+Method:1
+//taking input:
+const a = prompt("Enter space-separated numbers:").split(' ').map(Number);
+const k = [];
+
+for (let i of a) {
+    if (!k.includes(i)) {
+        k.push(i);
+    }
+}
+
+console.log(k);
+Method:2
+// Taking user input for space-separated numbers
+const a = prompt("Enter space-separated numbers:").split(' ').map(Number);
+
+// Filtering unique numbers using the filter method
+const k = a.filter((value, index, self) => self.indexOf(value) === index);
+
+// Displaying the result in the console
+console.log(k);
