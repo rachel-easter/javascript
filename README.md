@@ -1,5 +1,5 @@
 # javascript
- I have done 7 javascript files:/n
+ I have done 7 javascript files:
    1.swap
    2.result
    3.find
